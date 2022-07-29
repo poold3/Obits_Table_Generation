@@ -15,7 +15,7 @@ namespace fs = std::filesystem;
 vector<string> COLUMNS_TO_READ {"Full Name (w/ birth name)", "Degree", "Preferred Graduation Date", "Hometown", "Obituary Link"};
 
 //Enter the path to the CSV file from the current directory here
-fs::path PATH_TO_CSV_FILE = "Summer.csv";
+fs::path PATH_TO_CSV_FILE = "Obits.csv";
 
 int main() {
 
